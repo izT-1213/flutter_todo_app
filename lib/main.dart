@@ -83,6 +83,8 @@ class _TodoListState extends State<TodoList> {
       _todoList.add(title);
       _todoList.add(description);
     });
+    myDescription.clear();
+    myTitle.clear();
   }
 
   // this Generate list of item widgets
